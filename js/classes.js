@@ -375,28 +375,28 @@ class Goblin extends character {
       x: 0,
       y: 0,
     },
-    imageSrc = '../img/goblin/goblinIdle.png',
+    imageSrc = './img/goblin/goblinIdle.png',
     framesMax = 4,
     scale = 2.5,
     sprites = {
       idle: {
-        imageSrc: '../img/goblin/goblinIdle.png',
+        imageSrc: './img/goblin/goblinIdle.png',
         framesMax: 4,
       },
       run: {
-        imageSrc: '../img/goblin/goblinRun.png',
+        imageSrc: './img/goblin/goblinRun.png',
         framesMax: 6,
       },
       attack: {
-        imageSrc: '../img/goblin/goblinAttack.png',
+        imageSrc: './img/goblin/goblinAttack.png',
         framesMax: 4,
       },
       takeHit: {
-        imageSrc: '../img/goblin/goblinHit.png',
+        imageSrc: './img/goblin/goblinHit.png',
         framesMax: 3,
       },
       death: {
-        imageSrc: '../img/goblin/goblinDeath.png',
+        imageSrc: './img/goblin/goblinDeath.png',
         framesMax: 6,
       },
     },
